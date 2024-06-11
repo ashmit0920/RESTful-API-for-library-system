@@ -10,10 +10,10 @@ A simple RESTful API for a library system that allows users to manage books. The
 
 ## Dependencies:
 
-Flask
-Flask-RESTful
-Flask-SQLAlchemy
-Marshmallow (for serialization and validation)
+1. Flask
+2. Flask-RESTful
+3. Flask-SQLAlchemy
+4. Marshmallow (for serialization and validation)
 
 ## Running the API
 ```
