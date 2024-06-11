@@ -31,17 +31,17 @@ python run.py
 curl -X POST -H "Content-Type: application/json" -d '{"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "published_date": "1925", "isbn": "9780743273565"}' http://127.0.0.1:5000/books
 ```
 
-3. Get all books (GET /books):
+2. Get all books (GET /books):
 ```
 curl http://127.0.0.1:5000/books
 ```
 
-5. Get a specific book (GET /books/<book_id>):
+3. Get a specific book (GET /books/<book_id>):
 ```
 curl http://127.0.0.1:5000/books/1
 ```
 
-7. Update a book (PUT /books/<book_id>):
+4. Update a book (PUT /books/<book_id>):
 ```
 curl -X PUT -H "Content-Type: application/json" -d '{"author": "Francis Scott Fitzgerald"}' http://127.0.0.1:5000/books/1
 ```
