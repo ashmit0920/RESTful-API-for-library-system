@@ -47,7 +47,7 @@ curl http://127.0.0.1:5000/books/1
 curl -X PUT -H "Content-Type: application/json" -d '{"author": "Francis Scott Fitzgerald"}' http://127.0.0.1:5000/books/1
 ```
 
-9. Delete a book (DELETE /books/<book_id>):
+5. Delete a book (DELETE /books/<book_id>):
 ```
 curl -X DELETE http://127.0.0.1:5000/books/1
 ```
