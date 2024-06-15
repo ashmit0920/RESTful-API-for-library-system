@@ -25,6 +25,7 @@ python run.py
 > You may need to use ``` flask --app init_db run ``` on a local environment, in case of dependency conflicts in the venv.
 
 ## Testing the API
+cURL can be used to test the REST API. cURL is an open-source command line tool and library for transferring data with URLs. More info about it here https://curl.se
 
 1. Add a new book (POST /books):
 ```
